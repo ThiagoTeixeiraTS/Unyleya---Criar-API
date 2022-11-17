@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projetos\\UnyLeya\\Projetos\\API\\UnyleyaAtividade3\\UnyleyaAtividade3\\UnyleyaAtividade3.csproj": {}
+  },
+  "projects": {
+    "D:\\Projetos\\UnyLeya\\Projetos\\API\\UnyleyaAtividade3\\UnyleyaAtividade3\\UnyleyaAtividade3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\UnyLeya\\Projetos\\API\\UnyleyaAtividade3\\UnyleyaAtividade3\\UnyleyaAtividade3.csproj",
+        "projectName": "UnyleyaAtividade3",
+        "projectPath": "D:\\Projetos\\UnyLeya\\Projetos\\API\\UnyleyaAtividade3\\UnyleyaAtividade3\\UnyleyaAtividade3.csproj",
+        "packagesPath": "C:\\Users\\Thiago Dev\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\UnyLeya\\Projetos\\API\\UnyleyaAtividade3\\UnyleyaAtividade3\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Thiago Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.206.88.116:7001/nuget": {},
+          "http://10.206.88.116:7002/nuget": {},
+          "http://10.206.88.116:7003/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
